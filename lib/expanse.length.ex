@@ -1,7 +1,7 @@
-defmodule expanse do
+defmodule Expanse.Length do
 
 @moduledoc """
-This Module includes Length/Time conversion functions
+This Module includes Length conversion functions
 """
 
 
@@ -622,6 +622,226 @@ Convert KM to Feet
           end
           y
           end
+           """
+
+        @doc """
+        Convert yard to km
+        """
+
+          def y_to_km(x) do
+          y = round(x  * 0.0009144)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+
+        @doc """
+        Convert yard to m
+        """
+
+          def y_to_m(x) do
+          y = round(x  * 0.9144)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+
+        @doc """
+        Convert yard to meter
+        """
+
+          def y_to_m(x) do
+          y = round(x  * 0.9144)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+
+        @doc """
+        Convert yard to cm
+        """
+
+          def y_to_cm(x) do
+          y = round(x  * 91.44)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+
+
+        @doc """
+        Convert yard to mm
+        """
+
+          def y_to_mm(x) do
+          y = round(x  * 914.4)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+
+        @doc """
+        Convert yard to um
+        """
+
+          def y_to_um(x) do
+          y = round(x  * 914400)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+        @doc """
+        Convert yard to nm
+        """
+
+          def y_to_nm(x) do
+          y = round(x  * 9.14444444444)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+
+          @doc """
+        Convert yard to mi
+        """
+
+          def y_to_mi(x) do
+          y = round(x  * 0.000568182)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+          @doc """
+        Convert yard to ft
+        """
+
+          def y_to_ft(x) do
+          y = round(x  * 3)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+
+          @doc """
+        Convert yard to in
+        """
+
+          def y_to_ft(x) do
+          y = round(x  * 36)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+
+          @doc """
+        Convert yard to nm
+        """
+
+          def y_to_nm(x) do
+          y = round(x  * 0.000493737)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+
+          @doc """
+        Convert foot to km
+        """
+
+          def ft_to_km(x) do
+          y = round(x  * 0.0003048)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+          @doc """
+        Convert foot to m
+        """
+
+          def ft_to_m(x) do
+          y = round(x  * 0.3048)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+
+          @doc """
+        Convert foot to cm
+        """
+
+          def ft_to_cm(x) do
+          y = round(x  * 30.48)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+
+  @doc """
+        Convert foot to mm
+        """
+
+          def ft_to_mm(x) do
+          y = round(x  * 304.8)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+
+  @doc """
+        Convert foot to um
+        """
+
+          def ft_to_um(x) do
+          y = round(x  * 304800)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
+
+  @doc """
+        Convert foot to pm
+        """
+
+          def ft_to_pm(x) do
+          y = round(x  * 3.04888888888)
+          if y < 1 do
+          y =   round(y, 1)
+
+          end
+          y
+          end
 
 
 
@@ -637,56 +857,179 @@ Convert Feet to Miles
   y
   end
 
-
-
 @doc """
-Convert Seconds to Hours
+Convert Feet to yards
 """
-  def seconds_to_hours(x) do
-        mod = 3600
-    round(x / mod)
+
+  def ft_to_y(x) do
+  y = round(x  * 0.333333)
+  if y < 1 do
+  y = 1
   end
-
-  @doc """
-  Convert  Hours to Seconds
-  """
-    def hours_to_seconds(x) do
-          mod = 3600
-      round(x * mod)
-    end
-
-
+  y
+  end
 @doc """
-Convert Seconds to Minutes
+Convert Feet to inches
 """
-  def seconds_to_minutes(x) do
-        mod = 60
-    round(x / mod)
+
+  def ft_to_y(x) do
+  y = round(x  * 12)
+  if y < 1 do
+  y = 1
+  end
+  y
   end
 
   @doc """
-Convert  Minutes to Seconds
+Convert Feet to nm
 """
-  def minutes_to_seconds(x) do
-        mod = 60
-    round(x * mod)
+
+  def ft_to_nm(x) do
+  y = round(x  * 0.000164579)
+  if y < 1 do
+  y = 1
+  end
+  y
+  end
+
+
+  @doc """
+Convert in to km
+"""
+
+  def in_to_km(x) do
+  y = round(x  * 2.5444444)
+  if y < 1 do
+  y = 1
+  end
+  y
   end
 
   @doc """
-Convert  Minutes to hours
+Convert in to m
 """
-  def minutes_to_hours(x) do
-        mod = 60
-    round(x / mod)
+
+  def in_to_m(x) do
+  y = round(x  * 0.0254)
+  if y < 1 do
+  y = 1
+  end
+  y
   end
 
   @doc """
-Convert  Hours to minutes
+Convert in to cm
 """
-  def hours_to_minutes(x) do
-        mod = 60
-    round(x * mod)
+
+  def in_to_cm(x) do
+  y = round(x  * 2.54)
+  if y < 1 do
+  y = 1
   end
+  y
+  end
+  @doc """
+Convert in to mm
+"""
+
+  def in_to_mm(x) do
+  y = round(x  * 25.4)
+  if y < 1 do
+  y = 1
+  end
+  y
+  end
+
+  @doc """
+Convert in to um
+"""
+
+  def in_to_um(x) do
+  y = round(x  * 25400)
+  if y < 1 do
+  y = 1
+  end
+  y
+  end
+
+  @doc """
+Convert in to pm
+"""
+
+  def in_to_pm(x) do
+  y = round(x  * 25400)
+  if y < 1 do
+  y = 1
+  end
+  y
+  end
+
+
+  @doc """
+Convert in to mi
+"""
+
+  def in_to_mi(x) do
+  y = x  / 63360
+
+  end
+
+
+  @doc """
+Convert in to yd
+"""
+
+  def in_to_yd(x) do
+  y = x  / 36
+
+  end
+
+  @doc """
+Convert in to ft
+"""
+
+  def in_to_ft(x) do
+  y = x  / 12
+
+  end
+
+
+  @doc """
+Convert in to nm
+"""
+
+  def in_to_nm(x) do
+  y = x  / 72913.4
+
+  end
+  @doc """
+Convert nm to km
+"""
+
+  def nm_to_km(x) do
+  y = x  * 1.852
+
+  end
+
+  @doc """
+Convert nm to m
+"""
+
+  def nm_to_m(x) do
+  y = x  * 1852
+
+  end
+
+
+  @doc """
+Convert nm to cm
+"""
+
+  def nm_to_cm(x) do
+  y = x  * 185200
+
+  end
+
 
 
 end
