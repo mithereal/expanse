@@ -12,7 +12,7 @@ defmodule Expanse.Mixfile do
      package: [
        licenses: ["MIT"],
        maintainers: ["mithereal@gmail.com"],
-       links: ["https://github.com/mithereal/expanse"],
+       links: %{"GitHub" =>  "https://github.com/mithereal/expanse"},
      ]]
   end
 
@@ -21,6 +21,7 @@ defmodule Expanse.Mixfile do
   end
 
   defp deps do
-    [{:ex_doc, "~> 0.10", only: :dev}]
+    [{:ex_doc, "~> 0.10", only: :dev},
+    {:earmark, ">= 0.0.0"}]
   end
 end

@@ -590,7 +590,7 @@ Convert KM to Feet
           def mi_to_ft(x) do
           y = round(x  * 5280)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -603,7 +603,7 @@ Convert KM to Feet
           def mi_to_ft(x) do
           y = round(x  * 63360)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -617,12 +617,12 @@ Convert KM to Feet
           def mi_to_ft(x) do
           y = round(x  * 0.868976)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
           end
-           """
+           
 
         @doc """
         Convert yard to km
@@ -631,7 +631,7 @@ Convert KM to Feet
           def y_to_km(x) do
           y = round(x  * 0.0009144)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -644,7 +644,7 @@ Convert KM to Feet
           def y_to_m(x) do
           y = round(x  * 0.9144)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -657,7 +657,7 @@ Convert KM to Feet
           def y_to_m(x) do
           y = round(x  * 0.9144)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -670,7 +670,7 @@ Convert KM to Feet
           def y_to_cm(x) do
           y = round(x  * 91.44)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -684,7 +684,7 @@ Convert KM to Feet
           def y_to_mm(x) do
           y = round(x  * 914.4)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -697,7 +697,7 @@ Convert KM to Feet
           def y_to_um(x) do
           y = round(x  * 914400)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -709,7 +709,7 @@ Convert KM to Feet
           def y_to_nm(x) do
           y = round(x  * 9.14444444444)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -722,7 +722,7 @@ Convert KM to Feet
           def y_to_mi(x) do
           y = round(x  * 0.000568182)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -734,7 +734,7 @@ Convert KM to Feet
           def y_to_ft(x) do
           y = round(x  * 3)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -747,7 +747,7 @@ Convert KM to Feet
           def y_to_ft(x) do
           y = round(x  * 36)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -760,7 +760,7 @@ Convert KM to Feet
           def y_to_nm(x) do
           y = round(x  * 0.000493737)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -773,7 +773,7 @@ Convert KM to Feet
           def ft_to_km(x) do
           y = round(x  * 0.0003048)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -785,7 +785,7 @@ Convert KM to Feet
           def ft_to_m(x) do
           y = round(x  * 0.3048)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -798,7 +798,7 @@ Convert KM to Feet
           def ft_to_cm(x) do
           y = round(x  * 30.48)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -811,7 +811,7 @@ Convert KM to Feet
           def ft_to_mm(x) do
           y = round(x  * 304.8)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -824,7 +824,7 @@ Convert KM to Feet
           def ft_to_um(x) do
           y = round(x  * 304800)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
@@ -837,7 +837,7 @@ Convert KM to Feet
           def ft_to_pm(x) do
           y = round(x  * 3.04888888888)
           if y < 1 do
-          y =   round(y, 1)
+          y =   round(y)
 
           end
           y
