@@ -569,7 +569,8 @@ Convert KM to Feet
         end
         y
         end
- @doc """
+        
+	@doc """
       Convert Mi to y
       """
 
@@ -581,7 +582,7 @@ Convert KM to Feet
         y
         end
 
-        """
+        
         @doc """
         Convert  Miles to Feet
         """
@@ -595,7 +596,6 @@ Convert KM to Feet
           y
           end
 
-          """
         @doc """
         Convert  Miles to in
         """
@@ -609,7 +609,7 @@ Convert KM to Feet
           y
           end
 
-           """
+           
         @doc """
         Convert  Miles to nm
         """
